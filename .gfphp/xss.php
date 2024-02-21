@@ -1,0 +1,39 @@
+<?php
+
+$pattern = array(
+    'xss' => array(
+        '/[?&]q=/i',
+        '/[?&]s=/i',
+        '/[?&]search=/i',
+        '/[?&]lang=/i',
+        '/[?&]keyword=/i',
+        '/[?&]query=/i',
+        '/[?&]page=/i',
+        '/[?&]keywords=/i',
+        '/[?&]year=/i',
+        '/[?&]view=/i',
+        '/[?&]email=/i',
+        '/[?&]type=/i',
+        '/[?&]name=/i',
+        '/[?&]p=/i',
+        '/[?&]callback=/i',
+        '/[?&]jsonp=/i',
+        '/[?&]api_key=/i',
+        '/[?&]api=/i',
+        '/[?&]password=/i',
+        '/[?&]email=/i',
+        '/[?&]emailto=/i',
+        '/[?&]token=/i',
+        '/[?&]username=/i',
+        '/[?&]csrf_token=/i',
+        '/[?&]unsubscribe_token=/i',
+        '/[?&]id=/i',
+        '/[?&]item=/i',
+        '/[?&]page_id=/i',
+        '/[?&]month=/i',
+        '/[?&]immagine=/i',
+        '/[?&]list_type=/i',
+        '/[?&]url=/i'
+    )
+);
+?>
